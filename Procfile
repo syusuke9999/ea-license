@@ -1,0 +1,1 @@
+web: gunicorn ea_license.wsgi
