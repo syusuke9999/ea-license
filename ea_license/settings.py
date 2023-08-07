@@ -57,6 +57,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'ea_license.urls'
 
+DJANGO_SETTINGS_MODULE = 'ea_license.settings'
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 TEMPLATES = [
