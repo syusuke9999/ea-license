@@ -80,4 +80,3 @@ fabric.properties
 *.xml
 *.sqlite3
 /.idea/ea_license.iml
-*initial.py
