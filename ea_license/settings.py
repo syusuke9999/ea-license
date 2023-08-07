@@ -83,9 +83,12 @@ WSGI_APPLICATION = 'ea_license.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+DATABASE_URL = "postgres://mayzzlrhuqzfzp:1588289d641c7d4daf4e1d951c08cb377753cc563d6b99b839bdcd05f28d8e53@ec2-44-213-151-75.compute-1.amazonaws.com:5432/d6511clk1lrhrm"
+
 DATABASES = {
     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
