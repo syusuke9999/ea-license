@@ -2,3 +2,4 @@ gunicorn
 djangorestframework
 markdown
 django-filter
+whitenoise
