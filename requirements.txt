@@ -1,0 +1,4 @@
+gunicorn
+djangorestframework
+markdown
+django-filter
