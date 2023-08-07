@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["ea-license-e7f89059f8bf.herokuapp.com"]
 
-APPEND_SLASH = True  # 末尾にスラッシュを追加する設定
+APPEND_SLASH = False
 
 # Application definition
 
