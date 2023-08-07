@@ -4,3 +4,4 @@ markdown
 django-filter
 whitenoise
 dj_database_url
+psycopg2>=2.9,<3.0
