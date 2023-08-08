@@ -1,9 +1,9 @@
 """
-ASGI config for ea_license project.
+ea_licenseプロジェクトのASGI設定。
 
-It exposes the ASGI callable as a module-level variable named ``application``.
+モジュールレベルの変数``application``としてASGIコール可能なものを公開します。
 
-For more information on this file, see
+このファイルについての詳細は、以下を参照してください。
 https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
 """
 

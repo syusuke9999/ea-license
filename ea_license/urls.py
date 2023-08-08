@@ -1,18 +1,18 @@
 """
-URL configuration for ea_license project.
+ea_licenseプロジェクトのURL設定。
 
-The `urlpatterns` list routes URLs to views. For more information please see:
+`urlpatterns`リストはURLをビューにルーティングします。詳細は以下をご覧ください:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+例:
+関数ビュー
+    1. インポートを追加します:  from my_app import views
+    2. urlpatternsにURLを追加します:  path('', views.home, name='home')
+クラスベースのビュー
+    1. インポートを追加します:  from other_app.views import Home
+    2. urlpatternsにURLを追加します:  path('', Home.as_view(), name='home')
+別のURLconfを含める
+    1. include()関数をインポートします: from django.urls import include, path
+    2. urlpatternsにURLを追加します:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
 from django.urls import  include  # include をインポート

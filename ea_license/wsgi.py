@@ -1,9 +1,9 @@
 """
-WSGI config for ea_license project.
+ea_licenseプロジェクトのWSGI設定。
 
-It exposes the WSGI callable as a module-level variable named ``application``.
+モジュールレベルの変数``application``としてWSGIコール可能なものを公開します。
 
-For more information on this file, see
+このファイルについての詳細は、以下を参照してください。
 https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
 """
 
